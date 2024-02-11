@@ -29,10 +29,11 @@
     "react-router-dom": "^6.21.2",
     "react-scripts": "5.0.1",
     "react-scroll-to-top": "^3.0.0",
+    "react-sweetalert2": "^0.6.0",
     "react-toastify": "^10.0.1",
     "react-type-animation": "^3.2.0",
     "styled-components": "^6.1.8",
-    "sweetalert2": "^11.10.3",
+    "sweetalert2": "^11.10.5",
     "sweetalert2-react-content": "^5.0.7",
     "web-vitals": "^2.1.4"
   },
@@ -59,5 +60,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
