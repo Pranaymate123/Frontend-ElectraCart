@@ -30,8 +30,8 @@ import ProductView from './pages/users/ProductView';
 import CategoryStorePage from './pages/users/CategoryStorePage';
 import CartProvider from './context/CartProvider';
 import Loading from './components/Loading';
-import { useEffect, useState } from 'react';
-import { privateAxios, publicAxios } from './services/axios.service';
+import { useEffect } from 'react';
+
 import useLoader from './hooks/useLoader';
 
 import ScrollToTop from "react-scroll-to-top";
@@ -39,7 +39,7 @@ import {Container} from 'react-bootstrap'
 
 import Logout from './components/Logout';
 import { GoogleOAuthProvider } from '@react-oauth/google';
-import SignIn from './components/GoogleLogin';
+
 import ForgotPassword from './pages/users/ForgotPassword';
 import VerifyOtp from './pages/users/VerifyOtp';
 import ChangePassword from './pages/users/ChnagePassword';
