@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#sidemenu .list-group-item.active{
+  background: #1b1b1b !important;
+  color: white !important;
+  border:none;
+}
+
+.pagination{
+  
+}
+
+#sidemenu .pagination {
+  --bs-pagination-padding-x: 0.75rem;
+  --bs-pagination-padding-y: 0.375rem;
+  --bs-pagination-font-size: 1rem;
+  --bs-pagination-color: black !important;
+  --bs-pagination-bg: white !important;
+  --bs-pagination-border-width: black !important;
+  --bs-pagination-border-color:black !important;
+  --bs-pagination-border-radius: rgb(21, 20, 20) !important;
+  --bs-pagination-hover-color: black !important;
+  --bs-pagination-hover-bg: white !important;
+  --bs-pagination-hover-border-color:black !important;
+  --bs-pagination-focus-color: white !important;
+  --bs-pagination-focus-bg: black !important;
+  --bs-pagination-focus-box-shadow: black !important;
+  --bs-pagination-active-color: #fff !important;
+  --bs-pagination-active-bg: black  !important;
+  --bs-pagination-active-border-color: black  !important;
+  --bs-pagination-disabled-color: var(--bs-secondary-color);
+  --bs-pagination-disabled-bg:black !important;
+  --bs-pagination-disabled-border-color: black !important;
+  border: 2px solid black !important;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&family=Rubik&family=Ubuntu:wght@500&display=swap');
+body {
+  font-family: 'Ubuntu', sans-serif !important;
+} */
+@font-face {
+  font-family: 'Gilroy-SemiBoldItalic' ;
+  src: local('Gilroy-Bold'), url(./fonts/Gilroy-SemiBoldItalic.ttf) format('truetype');
+}
+
+body{
+  font-family:'Gilroy-SemiBoldItalic' !important;
+}
+
+
+#categorySideMenu .list-group-item.active{
+  background: none !important;
+  color: rgb(255, 255, 255) !important;
+  border-top:none;
+}
+
+
+/* Home Page  */
+body{
+ background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% )  !important;
+ background-size: cover;
+}
+
+.nav-link{
+  color: white !important;
+}
+.navbar-brand{
+  color:white !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show
+{
+  color: yellow !important;
+  /* border-bottom:2px solid white !important; */
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("https://i.pngimg.me/thumb/f/720/m2i8G6G6b1m2A0G6.jpg") !important;
+}
+.footer-icon{
+  color: white !important;
+}
+
+.footer-icon:hover{
+  cursor: pointer;
+  color: rgb(0, 91, 187) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-image {
+    display:none;
+  }
+}

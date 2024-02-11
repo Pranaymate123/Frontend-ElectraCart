@@ -1,0 +1,16 @@
+.product-image{
+    width: 200px;
+    height:200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.product-image:hover{
+    transform: scale(1.2);
+}
+
+.product-image{
+    transition: transform 0.5s;
+}
+.product-card{
+    overflow: hidden;
+}
