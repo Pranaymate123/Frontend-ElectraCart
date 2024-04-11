@@ -1,6 +1,8 @@
 // export const BASE_URL=`http://localhost:8083`;   ///dev
 export const BASE_URL=`https://backend-electronic-store-production.up.railway.app`;     ///prod
 
+
+
 export const PRODUCT_PAGE_SIZE=10;
 export const STORE_PAGE_PRODUCT_SIZE=8;
 
