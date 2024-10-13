@@ -1,5 +1,5 @@
-// export const BASE_URL=`http://localhost:8083`;   ///dev
-export const BASE_URL=`https://backend-electronic-store-production.up.railway.app`;     ///prod
+export const BASE_URL=`http://localhost:8083`;   ///dev
+// export const BASE_URL=`https://backend-electronic-store-production.up.railway.app`;     ///prod
 
 
 
